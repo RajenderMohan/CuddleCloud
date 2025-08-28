@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_svgrepo_com"
+        />
+
+    <item
+        android:id="@+id/categories"
+        android:title="Categories"
+        android:icon="@drawable/category_svgrepo_com"
+        >
+        <!-- This item contains the submenu -->
+        <menu>
+            <item
+                android:id="@+id/girls"
+                android:title="Girls" />
+
+            <item
+                android:id="@+id/boys"
+                android:title="Boys" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/account_svgrepo_com"
+        />
+
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/help_svgrepo_com"
+        />
+
+</menu>

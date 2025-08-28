@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@drawable/bg1"
+    >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="209dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="80dp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/user_svgrepo_com__1_"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/userEmailAddress"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/email_svgrepo_com"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPhone" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/shield_svgrepo_com"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/userEmailAddress"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/userEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/userEmailAddress" />
+
+    <EditText
+        android:id="@+id/userConfirmPassword"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/shield_svgrepo_com"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/userPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/userPassword"
+        app:layout_constraintTop_toBottomOf="@+id/userPassword" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="289dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#2288FD"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/userConfirmPassword"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="@+id/userConfirmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/userConfirmPassword" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="85dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="32dp"
+        android:text="Login."
+        android:textColor="#FF0000"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerButton" />
+
+    <TextView
+        android:id="@+id/alreadyhaveAccount"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="32dp"
+        android:text="Already have an Account?"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerButton" />
+
+    <EditText
+        android:id="@+id/userPhone"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/phone_svgrepo_com__1_"
+        android:ems="10"
+        android:hint="Phone no"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

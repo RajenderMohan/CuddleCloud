@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cuddle Cloud"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CuddleCloud">
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".b14"
+            android:exported="false" />
+        <activity
+            android:name=".b13"
+            android:exported="false" />
+        <activity
+            android:name=".b12"
+            android:exported="false" />
+        <activity
+            android:name=".b11"
+            android:exported="false" />
+        <activity
+            android:name=".b10"
+            android:exported="false" />
+        <activity
+            android:name=".b9"
+            android:exported="false" />
+        <activity
+            android:name=".b8"
+            android:exported="false" />
+        <activity
+            android:name=".b7"
+            android:exported="false" />
+        <activity
+            android:name=".b6"
+            android:exported="false" />
+        <activity
+            android:name=".b5"
+            android:exported="false" />
+        <activity
+            android:name=".b4"
+            android:exported="false" />
+        <activity
+            android:name=".b3"
+            android:exported="false" />
+        <activity
+            android:name=".b2"
+            android:exported="false" />
+        <activity
+            android:name=".b1"
+            android:exported="false" />
+        <activity
+            android:name=".g14"
+            android:exported="false" />
+        <activity
+            android:name=".g13"
+            android:exported="false" />
+        <activity
+            android:name=".g12"
+            android:exported="false" />
+        <activity
+            android:name=".g11"
+            android:exported="false" />
+        <activity
+            android:name=".g10"
+            android:exported="false" />
+        <activity
+            android:name=".g9"
+            android:exported="false" />
+        <activity
+            android:name=".g8"
+            android:exported="false" />
+        <activity
+            android:name=".g7"
+            android:exported="false" />
+        <activity
+            android:name=".g6"
+            android:exported="false" />
+        <activity
+            android:name=".g5"
+            android:exported="false" />
+        <activity
+            android:name=".g4"
+            android:exported="false" />
+        <activity
+            android:name=".g3"
+            android:exported="false" />
+        <activity
+            android:name=".g2"
+            android:exported="false" />
+        <activity
+            android:name=".g1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".confirmpsswrd"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpsswrd"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+    </application>
+
+</manifest>

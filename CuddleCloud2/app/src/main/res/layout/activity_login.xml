@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/bg1"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="80dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="317dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/email_svgrepo_com"
+        android:ems="10"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="317dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/lock_svgrepo_com"
+        android:ems="10"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddress" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="262dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#2288FD"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <TextView
+        android:id="@+id/signup1"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:text="Signup."
+        android:textColor="#FF0000"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="193dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="44dp"
+        android:text="Don't have an account?"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login" />
+
+
+    <TextView
+        android:id="@+id/forgotpsswrd1"
+        android:layout_width="155dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="317dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/user_svgrepo_com__1_"
+        android:ems="10"
+        android:hint="Username"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="317dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/phone_svgrepo_com__1_"
+        android:ems="10"
+        android:hint="Phone no"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
